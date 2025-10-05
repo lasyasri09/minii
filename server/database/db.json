@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": "8302d7b0-e8f4-455f-b533-3c11a0488978",
+      "name": "Kallakuri Lakshmi Sahithi",
+      "email": "lakshmisahithi1986@gmail.com",
+      "passwordHash": "$2a$10$RI6HbZiwf91V56bQLMvSleIXoFlvUyYhUuiwFidS7foCT84fDRQcK",
+      "streak": 0,
+      "lastCompletionDate": null
+    },
+    {
+      "id": "ecda8331-7b20-4c8a-85b2-5b415b1d8af0",
+      "name": "sahithi",
+      "email": "23b01a1266@svecw.edu.in",
+      "passwordHash": "$2a$10$nqDNxqSbOdyfj68A4VJW8OguyHh23UJzT/Jt5dgE9eKqpdwAfNU2a",
+      "streak": 0,
+      "lastCompletionDate": null
+    },
+    {
+      "id": "6fe816e6-0a16-430b-854f-3aaa88b38e6e",
+      "name": "lasya",
+      "email": "lasyasriburugupalli@gmail.com",
+      "passwordHash": "$2a$10$x6obDDLuTCu6UoVN/4xjDeYdzUHaKKtQB8qdjXxHtPFd9FTSgTw7e",
+      "streak": 1,
+      "lastCompletionDate": "2025-10-05T12:59:17.625Z"
+    }
+  ],
+  "todos": [
+    {
+      "id": "fb8c5d23-f1eb-4586-896c-e07e7a7742c3",
+      "userId": "8302d7b0-e8f4-455f-b533-3c11a0488978",
+      "title": "wash clothes",
+      "deadline": "2025-10-06T06:28:00.000Z",
+      "requiredMinutes": 30,
+      "completed": false,
+      "createdAt": "2025-10-04T06:28:48.018Z",
+      "completedAt": null
+    },
+    {
+      "id": "0797af24-593d-4813-a667-f48c1d6c85a2",
+      "userId": "8302d7b0-e8f4-455f-b533-3c11a0488978",
+      "title": "revise all chapters from tb",
+      "deadline": "2025-10-08T06:32:00.000Z",
+      "requiredMinutes": 210,
+      "completed": false,
+      "createdAt": "2025-10-04T06:32:20.136Z",
+      "completedAt": null
+    },
+    {
+      "id": "08794707-3e5c-4039-8827-d33a8e835bff",
+      "userId": "8302d7b0-e8f4-455f-b533-3c11a0488978",
+      "title": "revise all chapters bits",
+      "deadline": "2025-10-08T06:32:00.000Z",
+      "requiredMinutes": 90,
+      "completed": false,
+      "createdAt": "2025-10-04T06:32:44.744Z",
+      "completedAt": null
+    },
+    {
+      "id": "596a387b-dc80-45d1-9583-9b5f1b597604",
+      "userId": "8302d7b0-e8f4-455f-b533-3c11a0488978",
+      "title": "revise all chapters short notes",
+      "deadline": "2025-10-08T06:32:00.000Z",
+      "requiredMinutes": 50,
+      "completed": false,
+      "createdAt": "2025-10-04T06:33:04.840Z",
+      "completedAt": null
+    },
+    {
+      "id": "eae8e246-785f-4fa7-8ecf-79765786f126",
+      "userId": "8302d7b0-e8f4-455f-b533-3c11a0488978",
+      "title": "sleep",
+      "deadline": "2025-10-04T06:33:00.000Z",
+      "requiredMinutes": 30,
+      "completed": false,
+      "createdAt": "2025-10-04T06:33:25.400Z",
+      "completedAt": null
+    },
+    {
+      "id": "319b711d-cf7e-43e9-8f27-258ecb515a13",
+      "userId": "8302d7b0-e8f4-455f-b533-3c11a0488978",
+      "title": "cook",
+      "deadline": "2025-10-05T03:35:00.000Z",
+      "requiredMinutes": 30,
+      "completed": false,
+      "createdAt": "2025-10-05T03:35:25.933Z",
+      "completedAt": null
+    },
+    {
+      "id": "ba439e75-6df1-494a-a9e2-d62953bf78bf",
+      "userId": "6fe816e6-0a16-430b-854f-3aaa88b38e6e",
+      "title": "study",
+      "deadline": "2025-10-06T12:56:00.000Z",
+      "requiredMinutes": 1,
+      "completed": true,
+      "createdAt": "2025-10-05T12:57:09.277Z",
+      "completedAt": "2025-10-05T12:59:17.625Z"
+    },
+    {
+      "id": "84495392-3a83-4660-b453-63be2366ae77",
+      "userId": "6fe816e6-0a16-430b-854f-3aaa88b38e6e",
+      "title": "playing",
+      "deadline": "2025-10-06T12:57:00.000Z",
+      "requiredMinutes": 30,
+      "completed": false,
+      "createdAt": "2025-10-05T12:57:34.337Z",
+      "completedAt": null
+    },
+    {
+      "id": "f5aa334b-e009-4153-af58-3a2ee41094cd",
+      "userId": "6fe816e6-0a16-430b-854f-3aaa88b38e6e",
+      "title": "washing",
+      "deadline": "2025-10-06T12:59:00.000Z",
+      "requiredMinutes": 30,
+      "completed": false,
+      "createdAt": "2025-10-05T12:59:06.176Z",
+      "completedAt": null
+    }
+  ]
+}

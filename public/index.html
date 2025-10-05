@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Stride - ToDo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="app-header">
+    <h1>Stride <span style="font-size:1.2rem;vertical-align:middle;">🚀</span></h1>
+    <p class="tag">Plan · Progress · Conquer</p>
+  </header>
+
+  <main class="container">
+
+    <!-- Auth UI -->
+    <section id="authSection" class="card">
+      <div class="tabs">
+        <button id="tabLogin" class="active">Login</button>
+        <button id="tabRegister">Register</button>
+      </div>
+
+      <form id="loginForm" class="form">
+        <input type="email" id="loginEmail" placeholder="Email" required autocomplete="username" />
+        <input type="password" id="loginPassword" placeholder="Password" required autocomplete="current-password" />
+        <button type="submit">Login</button>
+      </form>
+
+      <form id="registerForm" class="form hidden">
+        <input type="text" id="regName" placeholder="Full name" required autocomplete="name" />
+        <input type="email" id="regEmail" placeholder="Email" required autocomplete="email" />
+        <input type="password" id="regPassword" placeholder="Password" required autocomplete="new-password" />
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <!-- App UI -->
+    <section id="appSection" class="hidden">
+      <div class="top-row">
+        <div>
+          <h2 id="greeting">Hello</h2>
+          <div>Streak: <span id="streak">0</span> days</div>
+        </div>
+        <div>
+          <button id="logoutBtn" class="btn-ghost" title="Logout">⎋ Logout</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-top:0;">Add a task</h3>
+        <form id="todoForm" class="form-inline">
+          <input type="text" id="todoTitle" placeholder="Task title" required />
+          <input type="datetime-local" id="todoDeadline" />
+          <input type="number" id="todoMinutes" placeholder="Minutes" min="0" />
+          <button type="submit">Add</button>
+        </form>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-top:0;">Sort &amp; Filter Tasks</h3>
+        <div class="controls">
+          <label>Available minutes:
+            <input type="number" id="availableMinutes" min="0" placeholder="e.g. 60" />
+          </label>
+          <button id="applyFilter" class="btn-ghost">Apply</button>
+          <select id="sortSelect">
+            <option value="">Sort (recent)</option>
+            <option value="deadline">Sort by deadline</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="todosList" class="cards"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <small>Stride — built for productivity &nbsp;|&nbsp; <span style="color:#6366f1;">Made with 💜</span></small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+</html>
